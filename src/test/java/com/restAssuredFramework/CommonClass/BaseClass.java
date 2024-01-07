@@ -10,14 +10,18 @@ import org.testng.annotations.BeforeTest;
 
 public class BaseClass 
 {
-//	protected static String csv_path = "CSV_FILE_PATH";
-	protected static String csv_path = "C:\\\\Users\\\\rimpo\\\\Downloads\\\\emp.xlsx";
+	protected static String csv_path = "CSV_FILE_PATH";
+	protected static HashMap<String, Object> requestBody;
+	protected static HashMap<String, Object> subrequestBody;
 
     @BeforeTest
     public void before() 
     {
-//        baseURI = "BASE_URI";
-    	 baseURI = "https://reqres.in";
+        baseURI = "BASE_URI";
+//    	 baseURI = "https://reqres.in";
+    	 
+    	 requestBody= new HashMap<String, Object>();
+    	 subrequestBody= new HashMap<String, Object>();
     }
     
     
@@ -75,9 +79,7 @@ public class BaseClass
     
     
     
-    
-    protected static HashMap<String, Object> requestBody= new HashMap<String, Object>();
-	protected static HashMap<String, Object> subrequestBody= new HashMap<String, Object>();
+   
 	
 	
 	public static Object setupApiRequestBody(String key,Object value)

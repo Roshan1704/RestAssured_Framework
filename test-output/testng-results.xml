@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-08T00:50:55 IST" name="Default suite" finished-at="2024-01-08T00:50:56 IST" duration-ms="1246">
+  <suite started-at="2024-01-08T01:06:15 IST" name="Default suite" finished-at="2024-01-08T01:06:16 IST" duration-ms="1399">
     <groups>
     </groups>
-    <test started-at="2024-01-08T00:50:55 IST" name="Default test" finished-at="2024-01-08T00:50:56 IST" duration-ms="1246">
+    <test started-at="2024-01-08T01:06:15 IST" name="Default test" finished-at="2024-01-08T01:06:16 IST" duration-ms="1399">
       <class name="com.restAssuredFramework.testCaseClass.PostApiTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@359df09a]" started-at="2024-01-08T00:50:55 IST" name="before" finished-at="2024-01-08T00:50:55 IST" duration-ms="578" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@43df23d3]" started-at="2024-01-08T01:06:15 IST" name="before" finished-at="2024-01-08T01:06:15 IST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@359df09a]" started-at="2024-01-08T00:50:55 IST" name="setup" finished-at="2024-01-08T00:50:56 IST" depends-on-methods="com.restAssuredFramework.CommonClass.BaseClass.before" duration-ms="580" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@43df23d3]" started-at="2024-01-08T01:06:15 IST" name="setup" finished-at="2024-01-08T01:06:16 IST" depends-on-methods="com.restAssuredFramework.CommonClass.BaseClass.before" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerUser([Ljava.lang.String;)[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@359df09a]" started-at="2024-01-08T00:50:56 IST" name="registerUser" data-provider="getDataFromExcel" finished-at="2024-01-08T00:50:56 IST" duration-ms="5" status="PASS">
+        <test-method signature="registerUser([Ljava.lang.String;)[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@43df23d3]" started-at="2024-01-08T01:06:16 IST" name="registerUser" data-provider="getDataFromExcel" finished-at="2024-01-08T01:06:16 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser -->
-        <test-method signature="registerUser([Ljava.lang.String;)[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@359df09a]" started-at="2024-01-08T00:50:56 IST" name="registerUser" data-provider="getDataFromExcel" finished-at="2024-01-08T00:50:56 IST" duration-ms="1" status="PASS">
+        <test-method signature="registerUser([Ljava.lang.String;)[pri:0, instance:com.restAssuredFramework.testCaseClass.PostApiTest@43df23d3]" started-at="2024-01-08T01:06:16 IST" name="registerUser" data-provider="getDataFromExcel" finished-at="2024-01-08T01:06:16 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
