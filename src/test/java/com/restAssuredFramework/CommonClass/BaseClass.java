@@ -71,6 +71,27 @@ public class BaseClass
     	Assert.assertTrue(ActualresponseTime< ExpectedresponseTime, "Response time is not less than "+ExpectedresponseTime+" milisec");
     }
     
+    
+    
+    
+    
+    
+    protected static HashMap<String, Object> requestBody= new HashMap<String, Object>();
+	protected static HashMap<String, Object> subrequestBody= new HashMap<String, Object>();
+	
+	
+	public static Object setupApiRequestBody(String key,Object value)
+	{
+		return requestBody.put(key,value);	
+		
+	}
+	
+	public static Object setupApiSubRequestBody(String key,Object value)
+	{
+		return subrequestBody.put(key, value);	
+		
+	}
+    
 
 
 }

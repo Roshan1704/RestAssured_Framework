@@ -48,5 +48,46 @@ public class PostApiTest extends BaseClass
     	BaseClass.responseValueVerify(value,150);
     	
     }
+	
+	
+	// ******************* In Case of Complex API Body, Use this 1*********************
+//	@Test(dataProvider = "getDataFromExcel")
+//    public void registerUser(String[] parameters) 
+//    {   
+//    	BaseClass.SetupResquestBody(arr, parameters);
+//    	
+//    	setupApiRequestBody(arr.get(0),parameters[0]);
+//		setupApiRequestBody(arr.get(1),parameters[1]);
+//		setupApiSubRequestBody(arr.get(2),parameters[2]);
+//		setupApiSubRequestBody(arr.get(3),parameters[3]);
+//		setupApiRequestBody("subject",subrequestBody);
+//		
+//		System.out.println(requestBody.toString());
+//    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

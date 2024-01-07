@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.restAssuredFramework.testCaseClass.PutApiTest">
+      <class name="com.restAssuredFramework.testCaseClass.PostApiTest">
         <methods>
-          <include name="updateUser" invocation-numbers="0 1"/>
-          <include name="setup"/>
           <include name="before"/>
+          <include name="setup"/>
+          <include name="registerUser"/>
         </methods>
-      </class> <!-- com.restAssuredFramework.testCaseClass.PutApiTest -->
+      </class> <!-- com.restAssuredFramework.testCaseClass.PostApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
