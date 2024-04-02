@@ -10,15 +10,15 @@ import org.testng.annotations.BeforeTest;
 
 public class BaseClass 
 {
-	protected static String csv_path = "CSV_FILE_PATH";
+	protected static String csv_path = "C:\\Users\\awiro\\Downloads\\abc.xlsx";
 	protected static HashMap<String, Object> requestBody;
 	protected static HashMap<String, Object> subrequestBody;
 
     @BeforeTest
     public void before() 
     {
-        baseURI = "BASE_URI";
-//    	 baseURI = "https://reqres.in";
+//        baseURI = "BASE_URI";
+    	 baseURI = "https://reqres.in";
     	 
     	 requestBody= new HashMap<String, Object>();
     	 subrequestBody= new HashMap<String, Object>();
@@ -75,13 +75,6 @@ public class BaseClass
     	Assert.assertTrue(ActualresponseTime< ExpectedresponseTime, "Response time is not less than "+ExpectedresponseTime+" milisec");
     }
     
-    
-    
-    
-    
-   
-	
-	
 	public static Object setupApiRequestBody(String key,Object value)
 	{
 		return requestBody.put(key,value);	

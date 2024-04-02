@@ -30,14 +30,22 @@ public class DataFromExcel {
 		Sheet sheet= getsheet(csv_path,sheetName);
 
 		int rowCount = sheet.getPhysicalNumberOfRows();
+		System.out.println(rowCount);
 		int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
 		Object[][] data = new Object[rowCount - 1][colCount];
 
-		for (int i = 1; i < rowCount; i++) {
-			Row row = sheet.getRow(i);
-			for (int j = 0; j < colCount; j++) {
-				data[i - 1][j] = row.getCell(j).toString();
+		try 
+		{
+			for (int i = 1; i < rowCount; i++) {
+				Row row = sheet.getRow(i);
+				for (int j = 0; j < colCount; j++) {
+					data[i - 1][j] = row.getCell(j).toString();
+				}
 			}
+			
+		} 
+		catch (Exception e) {
+			System.out.println("Sheet is blank");
 		}
 		return data;
 	}

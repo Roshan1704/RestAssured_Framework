@@ -20,6 +20,8 @@ public class LaunchApi
 	        return response;
     }
 	
+	
+	
 	public static Response getAPI(String path) 
 	{
         Response response = given()
@@ -27,6 +29,11 @@ public class LaunchApi
             .get(path);
         return response;
     }
+	
+	
+	
+	
+	
 	public static Response deleteAPI(String path) 
 	{
         Response response = given()
@@ -34,6 +41,9 @@ public class LaunchApi
             .delete(path);
         return response;
     }
+	
+	
+	
 	
 	public static Response putAPI(HashMap<String, String> body,String path) 
     {
@@ -45,6 +55,9 @@ public class LaunchApi
 	            
 	        return response;
     }
+	
+	
+	
 	
 	public static Response patchAPI(HashMap<String, String> body,String path) 
     {
