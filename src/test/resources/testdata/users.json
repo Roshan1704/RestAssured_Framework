@@ -1,0 +1,22 @@
+[
+  {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "email": "john.doe@test.com"
+  },
+  {
+    "name": "Jane Smith",
+    "job": "QA Engineer",
+    "email": "jane.smith@test.com"
+  },
+  {
+    "name": "Bob Johnson",
+    "job": "DevOps Engineer",
+    "email": "bob.johnson@test.com"
+  },
+  {
+    "name": "Alice Williams",
+    "job": "Product Manager",
+    "email": "alice.williams@test.com"
+  }
+]

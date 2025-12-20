@@ -1,0 +1,34 @@
+environments:
+  QA:
+    baseUri: "https://reqres.in"
+    basePath: "/api"
+    timeout: 30000
+  
+  STAGING:
+    baseUri: "https://staging.reqres.in"
+    basePath: "/api"
+    timeout: 30000
+  
+  PROD:
+    baseUri: "https://prod.reqres.in"
+    basePath: "/api"
+    timeout: 60000
+
+database:
+  mysql:
+    url: "jdbc:mysql://localhost:3306/testdb"
+    username: "root"
+    password: "root"
+    driver: "com.mysql.cj.jdbc.Driver"
+  
+  postgresql:
+    url: "jdbc:postgresql://localhost:5432/testdb"
+    username: "postgres"
+    password: "postgres"
+    driver: "org.postgresql.Driver"
+
+test:
+  retryCount: 2
+  screenshotOnFailure: true
+  parallelExecution: false
+  threadCount: 3
