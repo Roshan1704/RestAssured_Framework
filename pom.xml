@@ -28,7 +28,7 @@
         <poi.version>5.4.0</poi.version>
         <snakeyaml.version>2.2</snakeyaml.version>
         <javafaker.version>1.0.2</javafaker.version>
-        <log4j.version>2.22.1</log4j.version>
+        <log4j.version>2.25.4</log4j.version>
         <mysql.version>8.2.0</mysql.version>
         <postgresql.version>42.7.11</postgresql.version>
         <json-schema-validator.version>5.4.0</json-schema-validator.version>
