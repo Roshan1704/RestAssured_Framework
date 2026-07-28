@@ -30,7 +30,7 @@
         <javafaker.version>1.0.2</javafaker.version>
         <log4j.version>2.22.1</log4j.version>
         <mysql.version>8.2.0</mysql.version>
-        <postgresql.version>42.7.11</postgresql.version>
+        <postgresql.version>42.7.12</postgresql.version>
         <json-schema-validator.version>5.4.0</json-schema-validator.version>
     </properties>
 
